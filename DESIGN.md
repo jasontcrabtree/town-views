@@ -15,14 +15,17 @@ Expanded Functions:
 Shape of data:
 
 - Entry
+
+  - User
   - Name of town
-  - Photos
-  - Date
   - City
   - Description / notes
-  - Created@ / Updated@
-  - Index (of all entries)
-  - Index of city
+  - DateVisited
+  - Photos
+  - Created@
+
+- Index (of all entries)
+- Index of city
 
 Layout:
 

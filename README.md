@@ -1,5 +1,5 @@
-# Next JS Base Template
+# Next JS + FaunaDB App
 
-`npm run dev` to run dev mode
+/api CRUD functions
 
-After cloning repo, run `git remote -v` to check remote origin then `git remote remove origin` to disconnect and reinit with new repo
+Display list of data from FaunaDB

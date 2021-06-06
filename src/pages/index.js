@@ -1,8 +1,14 @@
+import NewTownVisit from '../component/NewTownVisit';
+import TownsVisited from '../component/TownsVisited';
+
 export default function Home() {
   return (
     <main>
-      <h1>Tiny JS Starter</h1>
-      <p>This is a Next JS template setup with files how I prefer</p>
+      <h1>Fauna Data</h1>
+      <hr />
+      <TownsVisited />
+      <hr />
+      <NewTownVisit />
     </main>
   );
 }
