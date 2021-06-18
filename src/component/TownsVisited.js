@@ -33,6 +33,8 @@ function TownsVisited() {
   const { data, error, loading } = useLoadData();
   const faunaData = data;
 
+  console.log(faunaData);
+
   if (loading)
     return (
       <div>
@@ -53,6 +55,14 @@ function TownsVisited() {
         {faunaData?.data?.map((cityVisit) => (
           <div key={cityVisit.ts}>{cityVisit.data.townName}</div>
         ))}
+
+        {faunaData ? (
+          faunaData?.data?.map((cityVisit) => (
+            <div key={cityVisit.ts}>{cityVisit.data.townName}</div>
+          ))
+        ) : (
+          <p>No Towns</p>
+        )}
       </div>
     </div>
   );
